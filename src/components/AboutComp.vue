@@ -1,5 +1,5 @@
 <template>
-      <section class="services">
+    <section class="services">
         <div class="container">
             <h2>Skills</h2>
             <h3>What I Am Great At</h3>
@@ -15,30 +15,54 @@ Today, I am confident in the knowledge and experience I have gained from both in
                     <ul>
                         <div class="carousel-content">
                         <div class="carousel-item">
-                            <img src="https://images.unsplash.com/photo-1719937206220-f7c76cc23d78?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Proyecto 1">
+                            <img src="https://awhendr261101.github.io/allImages/images/porty/bootstrap.png" alt="Proyecto 1">
                             
                             <h4>Marketing</h4>
                         </div>
                         </div>
                     </ul>
+                        
                     <ul>
                         <div class="carousel-content">
                         <div class="carousel-item">
-                            <img src="https://images.unsplash.com/photo-1719937206220-f7c76cc23d78?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Proyecto 1">
+                            <img src="https://awhendr261101.github.io/allImages/images/porty/css-3.png" alt="Proyecto 1">
                             </div>
                         </div>
                     </ul>
                     <ul>
                         <div class="carousel-content">
                         <div class="carousel-item">
-                            <img src="https://images.unsplash.com/photo-1719937206220-f7c76cc23d78?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Proyecto 1">
+                            <img src="https://awhendr261101.github.io/allImages/images/porty/developer.png" alt="Proyecto 1">
+                            
+                            </div>
+                        </div>
+                    </ul>
+                    <ul>
+                        <div class="carousel-content">
+                        <div class="carousel-item">
+                            <img src="https://awhendr261101.github.io/allImages/images/porty/java-script.png" alt="Proyecto 1">
+                            
+                            </div>
+                        </div>
+                    </ul>
+                    <ul>
+                        <div class="carousel-content">
+                        <div class="carousel-item">
+                            <img src="https://awhendr261101.github.io/allImages/images/porty/html.png" alt="Proyecto 1">
+                            
+                            </div>
+                        </div>
+                    </ul>
+                    <ul>
+                        <div class="carousel-content">
+                        <div class="carousel-item">
+                            <img src="https://awhendr261101.github.io/allImages/images/porty/file.png" alt="Proyecto 1">
                             
                             </div>
                         </div>
                     </ul>
                 </section>
             </div>
-
             <div class="stats">
                 <div class="stat-item">
                     <h4>9+</h4>
@@ -102,7 +126,7 @@ Today, I am confident in the knowledge and experience I have gained from both in
 /* Cada elemento del carrusel */
 .carousel-item {
     min-width: 200px;
-    height: 150px;
+    height: 200px;
     margin-right: 10px;
     display: flex;
     flex-direction: column;
