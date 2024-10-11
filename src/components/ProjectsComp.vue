@@ -78,4 +78,79 @@ export default {
 .btn:hover {
     background-color: #e6b51f;
 }
+
+.portfolio-filters {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.portfolio-filters li {
+    margin-right: 20px;
+}
+
+.portfolio-filters a {
+    color: #f3c623;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.portfolio-filters a.active {
+    color: #ffffff;
+}
+
+.portfolio-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover img {
+    transform: scale(1.05);
+}
+
+.portfolio-hover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 60%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    text-align: center;
+    transition: opacity 0.3s ease;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.portfolio-item:hover .portfolio-hover {
+    opacity: 1;
+}
+
+.portfolio-hover p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
 </style>

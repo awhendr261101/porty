@@ -2,7 +2,7 @@
     <div class="container-fluid">
       <div class="container-fluid min-vh-100 d-flex flex-row align-items-center">
         <div class="row">
-          <h1 class="pb-5">My education</h1>
+          <h2 class="pb-5">My education</h2>
           <div class="col-lg-12">
   
             <div class="horizontal-timeline">
@@ -45,7 +45,7 @@
           </div>
   
   
-          <h1 class="pb-5">My Experience</h1>
+          <h2 class="pb-5">My Experience</h2>
           <div class="col-lg-12">
             <div class="horizontal-timeline">
               <ul class="list-inline items">
@@ -184,6 +184,11 @@
 
     .btn:hover {
         background-color: #e6b51f;
+    }
+
+    .pb-5{
+      padding-top: 50px !important;
+      color: #e6b51f;
     }
 
     

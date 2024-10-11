@@ -3,30 +3,40 @@
         <div class="container">
             <h2>Skills</h2>
             <h3>What I Am Great At</h3>
-            <p class="description">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
+            <p class="descriptions">
+                I was born in the Eastern Cape and grew up in Cape Town, where I later graduated from Oval North Technical High School. It was during my time there, studying Computer Applications Technology, that I discovered my passion for coding. After high school, I knew I wanted to pursue programming further, and I was accepted into WeThinkCode, one of Africa's leading tech institutions, where I studied software engineering.
+
+After completing the two-year program, I sought to deepen my expertise and joined Life Choices, a renowned youth empowerment NGO in South Africa. There, I focused on web development and completed an intensive 6-month bootcamp that transformed my skills and career path.
+
+Today, I am confident in the knowledge and experience I have gained from both institutions. With my diverse skill set and continuous drive to learn, I am ready to excel in any role within the tech industry.
             </p>
-            <div class="service-items">
-                <div class="service-item">
-                    <img src="https://via.placeholder.com/60" alt="UI/UX Design Icon">
-                    <h4>UI/UX Design</h4>
-                    <p>129 projects</p>
-                </div>
-                <div class="service-item">
-                    <img src="https://via.placeholder.com/60" alt="Web Development Icon">
-                    <h4>Web Development</h4>
-                    <p>221 projects</p>
-                </div>
-                <div class="service-item">
-                    <img src="https://via.placeholder.com/60" alt="Web Research Icon">
-                    <h4>Web Research</h4>
-                    <p>450 projects</p>
-                </div>
-                <div class="service-item">
-                    <img src="https://via.placeholder.com/60" alt="Marketing Icon">
-                    <h4>Marketing</h4>
-                    <p>331 projects</p>
-                </div>
+            <div class="carousel-container">
+                <section class="section">
+                    <ul>
+                        <div class="carousel-content">
+                        <div class="carousel-item">
+                            <img src="https://images.unsplash.com/photo-1719937206220-f7c76cc23d78?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Proyecto 1">
+                            
+                            <h4>Marketing</h4>
+                        </div>
+                        </div>
+                    </ul>
+                    <ul>
+                        <div class="carousel-content">
+                        <div class="carousel-item">
+                            <img src="https://images.unsplash.com/photo-1719937206220-f7c76cc23d78?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Proyecto 1">
+                            </div>
+                        </div>
+                    </ul>
+                    <ul>
+                        <div class="carousel-content">
+                        <div class="carousel-item">
+                            <img src="https://images.unsplash.com/photo-1719937206220-f7c76cc23d78?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Proyecto 1">
+                            
+                            </div>
+                        </div>
+                    </ul>
+                </section>
             </div>
 
             <div class="stats">
@@ -74,4 +84,162 @@
 .btn:hover {
     background-color: #e6b51f;
 }
+
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Contenido del carrusel */
+.carousel-content {
+  display: flex;
+  animation: scroll 50s linear infinite;
+}
+
+/* Cada elemento del carrusel */
+.carousel-item {
+    min-width: 200px;
+    height: 150px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #333;
+    padding: 30px;
+    width: 22%;
+    border-radius: 10px;
+    text-align: center;
+
+    h2{
+
+    }
+
+    p {
+    font-size: 1rem;
+    color: #bbbbbb;
+    }
+
+    h4 {
+    font-size: 1.2rem;
+    font-weight: 900;
+    padding-top: 10px;
+    }
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Animación para el scroll automático */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.section {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  place-items: center;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  opacity: 1;
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 0%,
+    rgb(0, 0, 0) 12.5%,
+    rgb(0, 0, 0) 87.5%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  overflow: hidden;
+}
+
+.service-items {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+
+.service-item img {
+    margin-bottom: 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.stat-item {
+    width: 22%;
+}
+
+.stat-item h4 {
+    font-size: 2rem;
+    color: #f3c623;
+    margin-bottom: 10px;
+}
+
+.stat-item p {
+    font-size: 1rem;
+    color: #bbbbbb;
+}
+
+.descriptions{
+    max-width: 80%;
+    margin: 0 auto;
+    font-size: 1rem;
+    margin-bottom: 40px;
+    color: #aaaaaa;
+}
+
+
+/* here  */
+/* .service-items {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.service-item {
+    background-color: #333;
+    padding: 30px;
+    width: 22%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.service-item img {
+    margin-bottom: 20px;
+}
+
+.service-item h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 1rem;
+    color: #bbbbbb;
+}
+
+ */
+
+
 </style>
