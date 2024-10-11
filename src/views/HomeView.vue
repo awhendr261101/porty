@@ -1,4 +1,5 @@
 <template>
+  <div class="conty">
   <section class="row" id="landing">
     <LandingPage/>
   </section>
@@ -12,18 +13,21 @@
   </section>
 
   <section class="row">
-
+    <Resume />
   </section>
-
+  
   <section class="row">
-
+    <Contact/>
   </section>
+</div>
 </template>
 
 <script>
 import LandingPage from '@/components/LandingPage.vue'
 import About from '@/components/AboutComp.vue'
 import Projects from '@/components/ProjectsComp.vue'
+import Contact from '@/components/ContactPage.vue'
+import Resume from '@/components/ResumeComp.vue'
 
 
 export default {
@@ -32,7 +36,9 @@ export default {
   components: {
     LandingPage,
     About,
-    Projects
+    Projects,
+    Resume,
+    Contact
   }
 }
 </script>

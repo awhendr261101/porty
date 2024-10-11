@@ -37,6 +37,23 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+    .btn {
+    background-color: #f3c623;
+    color: #1c1c1c;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
 
+.btn:hover {
+    background-color: #e6b51f;
+}
 </style>
