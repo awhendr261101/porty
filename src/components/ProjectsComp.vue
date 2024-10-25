@@ -1,51 +1,49 @@
 <template>
     <section class="portfolio">
-        <div class="container">
-            <h2>Portfolio</h2>
+        <div class="container" cont>
+            <h2>Projects</h2>
             <h3>My Masterpiece Collection</h3>
             <p class="description">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
+                Explore my diverse range of projects, showcasing expertise in web development, software engineering, and problem-solving. Each project highlights my passion for clean code, creative design, and practical solutions. Check out the technologies and innovations that drive my work and development journey by clicking on the github button 
             </p>
 
             <ul class="portfolio-filters">
-                <li><a href="#" class="active">All</a></li>
-                <li><a href="#">UI / UX</a></li>
-                <li><a href="#">Web Development</a></li>
-                <li><a href="#">Web Research</a></li>
-                <li><a href="#">Marketing</a></li>
+                <li><a href="" class="active">All</a></li>
+                <li><a href="" class="" >Design Orientated</a></li>
+                <li><a href="" class="">Functionality Orientated</a></li>
             </ul>
 
-            <div class="portfolio-items">
+            <div class="portfolio-items d-flex flex-wrap">
                 <div class="portfolio-item">
-                    <img src="https://via.placeholder.com/300x400" alt="Portfolio Image 1">
+                    <img src="../assets/img/cart.png" alt="Portfolio Image 1">
                     <div class="portfolio-hover">
-                        <p>Project Description 1</p>
-                        <a href="#" class="btn">View Project</a>
-                        <a href="#" class="btn">External Link</a>
+                        <p>Ecommerce</p>
+                        <a href="https://micasa-a6199.web.app/" class="btn" target="_blank">Go Live</a>
+                        <a href="https://github.com/awhendr261101/micasa" class="btn" target="_blank" >Github</a>
                     </div>
                 </div>
                 <div class="portfolio-item">
-                    <img src="https://via.placeholder.com/300x400" alt="Portfolio Image 2">
+                    <img src="../assets/img/calculator.png" alt="Portfolio Image 2">
                     <div class="portfolio-hover">
-                        <p>Project Description 2</p>
-                        <a href="#" class="btn">View Project</a>
-                        <a href="#" class="btn">External Link</a>
+                        <p>Calculator</p>
+                        <a href="https://calculator-wine-omega-59.vercel.app/" class="btn" target="_blank">Go Live</a>
+                        <a href="https://github.com/awhendr261101/calculator" class="btn" target="_blank">Github</a>
                     </div>
                 </div>
                 <div class="portfolio-item">
-                    <img src="https://via.placeholder.com/300x400" alt="Portfolio Image 3">
+                    <img src="../assets/img/bmi.png" alt="Portfolio Image 3">
                     <div class="portfolio-hover">
-                        <p>Project Description 3</p>
-                        <a href="#" class="btn">View Project</a>
-                        <a href="#" class="btn">External Link</a>
+                        <p>BMI Calculator</p>
+                        <a href="https://bmi-caluculator.vercel.app/" class="btn" target="_blank">Go Live</a>
+                        <a href="https://github.com/awhendr261101/BMICaluculator" class="btn" target="_blank">Github</a>
                     </div>
                 </div>
                 <div class="portfolio-item">
-                    <img src="https://via.placeholder.com/300x400" alt="Portfolio Image 4">
+                    <img src="../assets/img/joystick.png" alt="Portfolio Image 4">
                     <div class="portfolio-hover">
-                        <p>Project Description 4</p>
-                        <a href="#" class="btn">View Project</a>
-                        <a href="#" class="btn">External Link</a>
+                        <p>Hangman</p>
+                        <a href="https://hangman-phi-two.vercel.app/" class="btn" target="_blank">Go Live</a>
+                        <a href="https://github.com/awhendr261101/hangman" class="btn" target="_blank">Github</a>
                     </div>
                 </div>
             </div>
@@ -60,24 +58,28 @@ export default {
 </script>
 
 <style scoped>
-    .btn {
+
+.btn {
     background-color: #f3c623;
     color: #1c1c1c;
-    padding: 10px 20px;
+    padding: 8px 16px;
     margin: 5px;
     border: none;
     border-radius: 5px;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 0.6rem;
     letter-spacing: 1px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    width: 5rem;
 }
 
 .btn:hover {
     background-color: #e6b51f;
 }
+
+
 
 .portfolio-filters {
     list-style: none;
@@ -105,13 +107,15 @@ export default {
 .portfolio-items {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    gap: 15px; /* Reduced gap for smaller items */
 }
 
 .portfolio-item {
     position: relative;
     overflow: hidden;
     border-radius: 10px;
+    max-width: 200px; /* Set a max width for the item */
+    margin: auto; /* Center align the items if they have space */
 }
 
 .portfolio-item img {
@@ -131,7 +135,8 @@ export default {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
-    height: 60%;
+    min-height: 60%;
+    max-height: 85%;
     background-color: rgba(0, 0, 0, 0.8);
     color: #fff;
     display: flex;
@@ -150,7 +155,18 @@ export default {
 }
 
 .portfolio-hover p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 10px;
 }
+
+h2 {
+    font-family: "Bowlby One", sans-serif;
+    font-size: 2rem;
+    color: #f3c623;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+
 </style>

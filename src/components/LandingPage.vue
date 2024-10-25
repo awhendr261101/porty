@@ -1,30 +1,33 @@
 <template>
     <div class="land">
-        <section class="landing-section">
+        <section class="landing-section d-flex flex-wrap">
             <div class="left-section">
-                <h1 name>Awodwa <br> Hendrick.</h1>
-                <ul class="social-links">
-                    <li><a href="#">Github LinkedIn</a></li>
-                    <li><a href="#">Discord Dribbble</a></li>
-                </ul>
+                <h1 name>Awodwa</h1>
+                <h1 name>Hendrick.</h1>
+                <div class="socials d-flex align-items-start">
+                    <a href="#"><img src="../assets/img/github.png" alt="social"></a>
+                    <a href="#"><img src="../assets/img/linkedin.png" alt="social"></a>
+                </div>
                 <div class="button-cont">
-                    <a href="#" class="contact-btn">Contact Me</a>
+                    <a href="#contact" class="contact-btn">Contact Me</a>
                 </div>
             </div>
             
+            <div imgcont>
             <div class="image-section">
                 <div class="cir">
     
                 </div>
                 <img  class="img-fluid" src="../assets/img/cropped-secstunt.png" alt="Jack Harper" landingimg>
             </div>
+            </div>
     
             <div class="right-section">
                 <div class="intro-text">
                     <h3>Introduction</h3>
                     <h2>UI/UX Designer, <br> Full Stack Web Developer</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <a href="#">Learn more ></a>
+                    <p>Hello, and welcome to my digital portfolio! Thank you for taking the time to explore this collection of my work. Please feel free to browse and get a sense of my skills and projects. I hope you enjoy reviewing everything I've put together here!</p>
+                    <a href="#about">Learn more ></a>
                 </div>
             </div>
         </section>
@@ -64,7 +67,7 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 
     .cir{
         position: absolute;
@@ -176,5 +179,66 @@ export default {
         width: 100%;
         border-radius: 10px;
     }
+}
+
+[name]{
+
+    font-family: "Bowlby One", sans-serif;
+    font-size: 2rem;
+    color: #ffffff !important;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+
+}
+
+[alt="social"]{
+    width: 50px;
+    padding-right: 10px;
+}
+
+.right-section{
+    align-items: flex-start !important;
+}
+
+
+
+@media (max-width: 1140px){
+      .left-section{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        
+      }
+
+      [imgcont]{
+        display: flex;
+        justify-content: center;
+      }
+
+      .right-section{
+        align-items: center;
+        justify-content: center !important;
+
+      }
+
+}
+
+@media (max-width: 840px){
+    [imgcont]{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+
+      .right-section{
+        align-items: center;
+        justify-content: center !important;
+        width: 100%;
+
+      }
+
 }
 </style>

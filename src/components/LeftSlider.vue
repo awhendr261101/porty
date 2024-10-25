@@ -1,15 +1,6 @@
 <template>
     <section class="services">
         <div class="container">
-            <h2>Skills</h2>
-            <h3>What I Am Great At</h3>
-            <p class="descriptions">
-                I was born in the Eastern Cape and grew up in Cape Town, where I later graduated from Oval North Technical High School. It was during my time there, studying Computer Applications Technology, that I discovered my passion for coding. After high school, I knew I wanted to pursue programming further, and I was accepted into WeThinkCode, one of Africa's leading tech institutions, where I studied software engineering.
-
-After completing the two-year program, I sought to deepen my expertise and joined Life Choices, a renowned youth empowerment NGO in South Africa. There, I focused on web development and completed an intensive 6-month bootcamp that transformed my skills and career path.
-
-Today, I am confident in the knowledge and experience I have gained from both institutions. With my diverse skill set and continuous drive to learn, I am ready to excel in any role within the tech industry.
-            </p>
             <div class="carousel-container">
                 <section class="section">
                     <ul>
@@ -64,35 +55,16 @@ Today, I am confident in the knowledge and experience I have gained from both in
                     </ul>
                 </section>
             </div>
-            <LeftSlider />
-            <div class="stats">
-                <div class="stat-item">
-                    <h4>2+</h4>
-                    <p>Years of Experience</p>
-                </div>
-                <div class="stat-item">
-                    <h4>3+</h4>
-                    <p>Satisfied Customers</p>
-                </div>
-                <div class="stat-item">
-                    <h4>6+</h4>
-                    <p>Design Items</p>
-                </div>
-                <div class="stat-item">
-                    <h4>3+</h4>
-                    <p>Clients Served</p>
-                </div>
-            </div>
         </div>
     </section>
 </template>
 
 <script setup>
-import LeftSlider from './LeftSlider.vue';
 
 </script>
 
 <style scoped>
+
 .btn {
     background-color: #f3c623;
     color: #1c1c1c;
@@ -165,10 +137,10 @@ import LeftSlider from './LeftSlider.vue';
 
 @keyframes scroll {
   0% {
-    transform: translateX(0);
+    transform: translateX(-50%);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(+50%);
   }
 }
 
@@ -232,4 +204,12 @@ import LeftSlider from './LeftSlider.vue';
     margin-bottom: 40px;
     color: #aaaaaa;
 }
+
+.services{
+    padding-block: 0 !important;
+}
+.container{
+    padding-block: 0 !important;
+}
+
 </style>

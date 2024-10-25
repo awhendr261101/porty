@@ -1,33 +1,31 @@
 <template>
     <div class="contact-section">
       <div class="container">
-        <h2>Contact Us</h2>
+        <h2>Contact Me</h2>
         <h3>Ways To Contact Me</h3>
         <p class="description">
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia.
+          Let’s connect! Whether you're interested in collaborating, have a project idea, or are offering employment opportunities, feel free to reach out. I’m always open to new ventures and career prospects. Fill out the form below, and I’ll get back to you soon!
         </p>
         <div class="contact-info">
           <div class="contact-item">
             <i class="fas fa-envelope"></i>
-            <span>admin@jkh.com</span>
+            <span>awodwasihlehendrick@gmail.com</span>
           </div>
           <div class="contact-item">
             <i class="fas fa-phone"></i>
-            <span>+1 (818) 2489 XX</span>
+            <span>+27 79 587 0761</span>
           </div>
           <div class="contact-item">
             <i class="fas fa-comments"></i>
-            <span>live:shail</span>
+            <span>LinkedIn</span>
           </div>
         </div>
         <div class="social-links">
           <a href="#" class="social-link">
-            <i class="fab fa-twitter"></i>@tortoiz
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
           </a>
           <a href="#" class="social-link">
-            <i class="fab fa-facebook"></i>Tortoiz
+            <i class="fa fa-github-square" aria-hidden="true"></i>
           </a>
         </div>
         <div class="contact-wrapper">
@@ -44,9 +42,6 @@
           </div>
         </div>
       </div>
-      <footer>
-        <p>Copyright - Tortoiz | All Rights Reserved</p>
-      </footer>
     </div>
 </template>
 

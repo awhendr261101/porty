@@ -8,11 +8,11 @@
             <div class="horizontal-timeline">
   
               <ul class="list-inline items">
-                <li class="list-inline-item items-list ">
+                <li class="list-inline-item items-list">
                   <div class="px-4 text-white">
-                    <div class="event-date badge bg-body">2 June</div>
-                    <h5 class="pt-2">Event One</h5>
-                    <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, doloremque eum adipisci soluta sequi ex maiores praesentium odio et saepe recusandae ab ratione veritatis corrupti, pariatur quia? Recusandae, necessitatibus officiis voluptate sit velit nostrum iusto laborum doloremque excepturi odio debitis?</p>
+                    <div class="event-date badge bg-body">20-09-20</div>
+                    <h5 class="pt-2">Matric</h5>
+                    <p class="text-muted">I matriculated from Oval North Technical High School in 2020, earning a Bachelor’s pass. My time at Oval North sparked my passion for technology, particularly through my exposure to Computer Applications Technology, which laid the foundation for my journey into software development.</p>
                     <div>
                       <a href="#" data-mdb-ripple-init class="btn btn-primary btn-sm">Read more</a>
                     </div>
@@ -20,9 +20,9 @@
                 </li>
                 <li class="list-inline-item items-list">
                   <div class="px-4 text-white">
-                    <div class="event-date badge bg-body">5 June</div>
-                    <h5 class="pt-2">Event Two</h5>
-                    <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, doloremque eum adipisci soluta sequi ex maiores praesentium odio et saepe recusandae ab ratione veritatis corrupti, pariatur quia? Recusandae, necessitatibus officiis voluptate sit velit nostrum iusto laborum doloremque excepturi odio debitis?</p>
+                    <div class="event-date badge bg-body">28-01-24</div>
+                    <h5 class="pt-2">WeThinkCode</h5>
+                    <p class="text-muted">I studied for two years at WeThinkCode, where I specialized in Software Development. During this time, I covered key electives such as systems integration, quality assurance, and mobile development, gaining hands-on experience that deepened my technical skills and problem-solving abilities</p>
                     <div>
                       <a href="#" data-mdb-ripple-init class="btn btn-primary btn-sm">Read more</a>
                     </div>
@@ -30,9 +30,9 @@
                 </li>
                 <li class="list-inline-item items-list">
                   <div class="px-4 text-white">
-                    <div class="event-date badge bg-body">7 June</div>
-                    <h5 class="pt-2">Event Three</h5>
-                    <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, doloremque eum adipisci soluta sequi ex maiores praesentium odio et saepe recusandae ab ratione veritatis corrupti, pariatur quia? Recusandae, necessitatibus officiis voluptate sit velit nostrum iusto laborum doloremque excepturi odio debitis?</p>
+                    <div class="event-date badge bg-body">20-09-24</div>
+                    <h5 class="pt-2">LC Academy</h5>
+                    <p class="text-muted">I attended a six-month intensive bootcamp at Life Choices, where I learned full-stack web development. In addition to technical skills, I received professional development training, which helped me enhance my teamwork, and project management abilities, preparing me for real-world tech environments.</p>
                     <div>
                       <a href="#" data-mdb-ripple-init class="btn btn-primary btn-sm">Read more</a>
                     </div>
@@ -51,29 +51,20 @@
               <ul class="list-inline items">
                 <li class="list-inline-item items-list ">
                   <div class="px-4 text-white">
-                    <div class="event-date badge bg-body">2 June</div>
-                    <h5 class="pt-2">Event One</h5>
-                    <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, doloremque eum adipisci soluta sequi ex maiores praesentium odio et saepe recusandae ab ratione veritatis corrupti, pariatur quia? Recusandae, necessitatibus officiis voluptate sit velit nostrum iusto laborum doloremque excepturi odio debitis?</p>
+                    <div class="event-date badge bg-body">currently</div>
+                    <h5 class="pt-2">LC Studio</h5>
+                    <p class="text-muted">I’m currently an intern at Life Choices Academy, where I’m undergoing hands-on training in multiple tech electives. This role is providing me with practical experience across diverse areas in technology, enhancing my skill set and preparing me for a dynamic career in the tech industry.</p>
                     <div>
                       <a href="#" data-mdb-ripple-init class="btn btn-primary btn-sm">Read more</a>
                     </div>
                   </div>
                 </li>
-                <li class="list-inline-item items-list">
-                  <div class="px-4 text-white">
-                    <div class="event-date badge bg-body">5 June</div>
-                    <h5 class="pt-2">Event Two</h5>
-                    <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, doloremque eum adipisci soluta sequi ex maiores praesentium odio et saepe recusandae ab ratione veritatis corrupti, pariatur quia? Recusandae, necessitatibus officiis voluptate sit velit nostrum iusto laborum doloremque excepturi odio debitis?</p>
-                    <div>
-                      <a href="#" data-mdb-ripple-init class="btn btn-primary btn-sm">Read more</a>
-                    </div>
-                  </div>
-                </li>
+
                 <li class="list-inline-item items-list">
                   <div class="px-4 text-white">
                     <div class="event-date badge bg-body">7 June</div>
                     <h5 class="pt-2">Event Three</h5>
-                    <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, doloremque eum adipisci soluta sequi ex maiores praesentium odio et saepe recusandae ab ratione veritatis corrupti, pariatur quia? Recusandae, necessitatibus officiis voluptate sit velit nostrum iusto laborum doloremque excepturi odio debitis?</p>
+                    <p class="text-muted">I completed intensive training in a work simulation program at WeThinkCode, where I gained practical experience in key electives such as Q&A, Systems Integration, and Mobile App Development. This program provided a solid foundation in real-world tech practices</p>
                     <div>
                       <a href="#" data-mdb-ripple-init class="btn btn-primary btn-sm">Read more</a>
                     </div>
@@ -156,6 +147,12 @@
         top: -40px;
       }
     }
+
+    @media (max-width: 1140px){
+      ul li{
+        margin-inline: 0 !important;
+      }
+    }
     h1{
       color: #ffffff;
       text-align: center;
@@ -191,6 +188,13 @@
       color: #e6b51f;
     }
 
+    .row{
+      padding-top: 60px;
+    }
+
     
+    .services{
+    padding-block: 0;
+}
 
 </style>

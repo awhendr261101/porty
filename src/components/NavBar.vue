@@ -1,57 +1,81 @@
 <template>
-    <nav class="navbar navbar-expand-lg bg-dark-subtle position-sticky">
-    <div class="container-fluid">
-      <router-link class="navbar-brand" to="/">
-          <img class="img-thumbnail" src=" https://awhendr261101.github.io/allImages/images/vue-eomp/logo1.jpg" alt="logo" loading="lazy" >
-      </router-link>
-  
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-  
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
-          <li class="nav-item">
-            <router-link class="nav-link active" aria-current="page" href="#landing">Home</router-link>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item dropdown">
-              <a class="nav-link" href="#resume">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skills" >Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects" >Projects</a>
-          </li>
-          <li class="nav-item">
-              <a href="#testimonials" class="nav-link">Testimonials</a>
-          </li>
-          <li class="nav-item">
-              <a href="#reachme" class="nav-link">Reach Me</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</template>
-  
-  <script>
-  export default {
-  
-  }
-  </script>
-  
-  <style>
-    nav{
-    height: 100px;
-    background-image: linear-gradient( #2a2a2a,#1c1b1b);
-  }
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top min-vw-100">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="https://awhendr261101.github.io/allImages/images/surveycorps.jpg" alt="logo" loading="lazy">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#landing" exact-active-class="active">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about" exact-active-class="active">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects" exact-active-class="active">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#resume" exact-active-class="active">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact" exact-active-class="active">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
     
-  nav a {
-      font-weight: bold;
-      color: aliceblue !important;
+</template>
+
+<script setup>
+
+
+
+</script>
+
+<style scoped>
+  .navbar {
+
+
+    background-color: #333 !important;
+    min-height: 5rem;
+    & img[alt='logo']{
+        width: 4rem;
     }
-  </style>
+
+    & .nav-link{
+        color: white;
+        padding-inline: 1.5rem !important;
+    }
+    .active{
+      background-color: white !important;
+      color: #0f0d0d;
+    }
+    .nav-link:hover{
+      color: #0f0d0d;
+       background-color: white !important;
+       transform: scale(1);
+       transition: 1s;
+    }
+
+    [drop]{
+        color: #0f0d0d;
+    }
+    [drop]:hover{
+        transform: scale(1);
+
+    }
+
+    
+}
+
+
+
+
+
+</style>
