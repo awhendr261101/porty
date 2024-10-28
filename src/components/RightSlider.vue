@@ -5,55 +5,56 @@
           <section class="section">
             <div class="carousel-content">
               <div class="carousel-item">
-                <img src="https://awhendr261101.github.io/allImages/images/porty/bootstrap.png" alt="Bootstrap" />
-                <h4>Bootstrap</h4>
+                <img src="../assets/img/soft/analytical.png" alt="Bootstrap" />
+                <h4>Analytical</h4>
               </div>
               <div class="carousel-item">
-                <img src="https://awhendr261101.github.io/allImages/images/porty/css-3.png" alt="CSS" />
-                <h4>CSS</h4>
+                <img src="../assets/img/soft/team.png" alt="CSS" />
+                <h4>Team Work</h4>
               </div>
               <div class="carousel-item">
-                <img src="https://awhendr261101.github.io/allImages/images/porty/developer.png" alt="Node JS" />
-                <h4>Node JS</h4>
+                <img src="../assets/img/soft/creativity.png" alt="Node JS" />
+                <h4>Creativity</h4>
               </div>
               <div class="carousel-item">
-                <img src="https://awhendr261101.github.io/allImages/images/porty/java-script.png" alt="JavaScript" />
-                <h4>JavaScript</h4>
+                <img src="../assets/img/soft/leadership.png" alt="JavaScript" />
+                <h4>Leadership</h4>
               </div>
               <div class="carousel-item">
-                <img src="https://awhendr261101.github.io/allImages/images/porty/html.png" alt="HTML" />
-                <h4>HTML</h4>
+                <img src="../assets/img/soft/punctuality.png" alt="HTML" />
+                <h4>Punctuality</h4>
               </div>
               <div class="carousel-item">
-                <img src="https://awhendr261101.github.io/allImages/images/porty/file.png" alt="Vue JS" />
-                <h4>Vue JS</h4>
+                <img src="../assets/img/soft/detail.png" alt="Vue JS" />
+                <h4>Detail</h4>
               </div>
 
               <!-- bottom  -->
               <div class="carousel-item">
-                <img src="https://awhendr261101.github.io/allImages/images/porty/bootstrap.png" alt="Bootstrap" />
-                <h4>Bootstrap</h4>
+                <img src="../assets/img/soft/analytical.png" alt="Bootstrap" />
+                <h4>Analytical</h4>
               </div>
               <div class="carousel-item">
-                <img src="https://awhendr261101.github.io/allImages/images/porty/css-3.png" alt="CSS" />
-                <h4>CSS</h4>
+                <img src="../assets/img/soft/team.png" alt="CSS" />
+                <h4>Team Work</h4>
               </div>
               <div class="carousel-item">
-                <img src="https://awhendr261101.github.io/allImages/images/porty/developer.png" alt="Node JS" />
-                <h4>Node JS</h4>
+                <img src="../assets/img/soft/creativity.png" alt="Node JS" />
+                <h4>Creativity</h4>
               </div>
               <div class="carousel-item">
-                <img src="https://awhendr261101.github.io/allImages/images/porty/java-script.png" alt="JavaScript" />
-                <h4>JavaScript</h4>
+                <img src="../assets/img/soft/leadership.png" alt="JavaScript" />
+                <h4>Leadership</h4>
               </div>
               <div class="carousel-item">
-                <img src="https://awhendr261101.github.io/allImages/images/porty/html.png" alt="HTML" />
-                <h4>HTML</h4>
+                <img src="../assets/img/soft/punctuality.png" alt="HTML" />
+                <h4>Punctuality</h4>
               </div>
               <div class="carousel-item">
-                <img src="https://awhendr261101.github.io/allImages/images/porty/file.png" alt="Vue JS" />
-                <h4>Vue JS</h4>
+                <img src="../assets/img/soft/detail.png" alt="Vue JS" />
+                <h4>Detail</h4>
               </div>
+
             </div>
           </section>
         </div>
@@ -133,10 +134,10 @@
   
   @keyframes scroll {
     0% {
-      transform: translateX(0);
+      transform: translateX(-50%);
     }
     100% {
-      transform: translateX(-50%);
+      transform: translateX(0);
     }
   }
   

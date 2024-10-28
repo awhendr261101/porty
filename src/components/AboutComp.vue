@@ -10,60 +10,7 @@ After completing the two-year program, I sought to deepen my expertise and joine
 
 Today, I am confident in the knowledge and experience I have gained from both institutions. With my diverse skill set and continuous drive to learn, I am ready to excel in any role within the tech industry.
             </p>
-            <div class="carousel-container">
-                <section class="section">
-                    <ul>
-                        <div class="carousel-content">
-                        <div class="carousel-item">
-                            <img src="https://awhendr261101.github.io/allImages/images/porty/bootstrap.png" alt="Proyecto 1">
-                            
-                            <h4>Bootstrap</h4>
-                        </div>
-                        </div>
-                    </ul>
-                        
-                    <ul>
-                        <div class="carousel-content">
-                        <div class="carousel-item">
-                            <img src="https://awhendr261101.github.io/allImages/images/porty/css-3.png" alt="Proyecto 1">
-                            <h4>CSS</h4>
-                            </div>
-                        </div>
-                    </ul>
-                    <ul>
-                        <div class="carousel-content">
-                        <div class="carousel-item">
-                            <img src="https://awhendr261101.github.io/allImages/images/porty/developer.png" alt="Proyecto 1">
-                            <h4>Node JS</h4>
-                            </div>
-                        </div>
-                    </ul>
-                    <ul>
-                        <div class="carousel-content">
-                        <div class="carousel-item">
-                            <img src="https://awhendr261101.github.io/allImages/images/porty/java-script.png" alt="Proyecto 1">
-                            <h4>Java Script</h4>
-                            </div>
-                        </div>
-                    </ul>
-                    <ul>
-                        <div class="carousel-content">
-                        <div class="carousel-item">
-                            <img src="https://awhendr261101.github.io/allImages/images/porty/html.png" alt="Proyecto 1">
-                            <h4>HTML</h4>
-                            </div>
-                        </div>
-                    </ul>
-                    <ul>
-                        <div class="carousel-content">
-                        <div class="carousel-item">
-                            <img src="https://awhendr261101.github.io/allImages/images/porty/file.png" alt="Proyecto 1">
-                            <h4>VUE JS</h4>
-                            </div>
-                        </div>
-                    </ul>
-                </section>
-            </div>
+            <RightSlider/>
             <LeftSlider />
             <div class="stats">
                 <div class="stat-item">
@@ -89,6 +36,7 @@ Today, I am confident in the knowledge and experience I have gained from both in
 
 <script setup>
 import LeftSlider from './LeftSlider.vue';
+import RightSlider from './RightSlider.vue';
 
 </script>
 
@@ -165,10 +113,10 @@ import LeftSlider from './LeftSlider.vue';
 
 @keyframes scroll {
   0% {
-    transform: translateX(0);
+    transform: translateX(-50%);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(0);
   }
 }
 

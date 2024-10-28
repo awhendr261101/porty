@@ -163,4 +163,11 @@ footer {
   background-color: #ffa500;
 }
 
+@media (max-width: 440px ) {
+  .contact-info{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 </style>
