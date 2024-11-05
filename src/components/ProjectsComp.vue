@@ -132,7 +132,7 @@ console.log(handleClick);
 
 .portfolio-items {
     max-width: 90% !important;
-    gap: 30px !important;
+    gap: 20px !important;
 }
 
 .portfolio-item {
