@@ -93,7 +93,7 @@
 }
 
 .portfolio {
-    background-color: #2b2b2b;
+    background-color: #1e1e1e;
     padding: 50px 0;
 }
 
@@ -131,10 +131,21 @@ h3 {
 .description {
     max-width: 900px;
     margin: 0 auto;
-    font-size: 1rem;
+    font-size: 16px !important;
     margin-bottom: 40px;
-    color: #aaaaaa;
+    font-weight: 500;
+    color: white !important;
 }
+
+.descriptions {
+    margin: 0 auto;
+    font-size: 16px !important;
+    margin-bottom: 40px;
+    font-weight: 500;
+    color: white !important;
+}
+
+
 
 
 

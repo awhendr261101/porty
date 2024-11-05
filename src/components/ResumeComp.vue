@@ -54,8 +54,8 @@
 
                 <li class="list-inline-item items-list">
                   <div class="px-4 text-white">
-                    <div class="event-date badge bg-body">7 June</div>
-                    <h5 class="pt-2">Event Three</h5>
+                    <div class="event-date badge bg-body">28-01-24</div>
+                    <h5 class="pt-2">WeThinkCode</h5>
                     <p class="text-muted">I completed intensive training in a work simulation program at WeThinkCode, where I gained practical experience in key electives such as Q&A, Systems Integration, and Mobile App Development. This program provided a solid foundation in real-world tech practices</p>
 
                   </div>
@@ -84,7 +84,7 @@
 <style scoped>
     /* General styling */
     .container-fluid {
-        background-color: #1e1e1e;
+      background-color: #2b2b2b;
     }
   
   

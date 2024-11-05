@@ -30,8 +30,8 @@ import { ref, onMounted, onBeforeUnmount } from 'vue';
 const links = [
   { id: 'landing', text: 'Home', href: '#landing' },
   { id: 'about', text: 'About', href: '#about' },
+  { id: 'resume', text: 'Education&Experience', href: '#resume' },
   { id: 'projects', text: 'Projects', href: '#projects' },
-  { id: 'resume', text: 'Resume', href: '#resume' },
   { id: 'contact', text: 'Contact Me', href: '#contact' },
 ];
 
@@ -82,6 +82,12 @@ onBeforeUnmount(() => {
     & .nav-link{
         color: white;
         padding-inline: 1.5rem !important;
+        font-family: "Bowlby One", sans-serif;
+        font-size: 1rem;
+        color: #f3c623 !important;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
     }
     .active{
       background-color: white !important;
@@ -106,8 +112,8 @@ onBeforeUnmount(() => {
 }
 
 .nav-link.active {
-  background-color: white !important;
-  color: #0f0d0d;
+       background-color: white !important;
+       color: #0f0d0d;
 }
 .nav-link:hover {
   color: #0f0d0d;
@@ -115,4 +121,8 @@ onBeforeUnmount(() => {
   transform: scale(1);
   transition: 1s;
 }
+
+
+
+
 </style>

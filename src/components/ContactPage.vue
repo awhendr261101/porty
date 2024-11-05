@@ -16,8 +16,9 @@
             <span>+27 79 587 0761</span>
           </div>
           <div class="contact-item">
-            <a href=""><i class="fas fa-comments"></i></a>
-            <span>LinkedIn</span>
+            <a href=""><i class="fa fa-map-marker" aria-hidden="true"></i>
+            </a>
+            <span>Khayelitsha, Cape Town</span>
           </div>
         </div>
 

@@ -9,13 +9,14 @@
     <About/>
   </section>
 
+  <section class="row min-vh-100" id="resume">
+    <Resume />
+  </section>
+  
   <section class="row  min-vh-100" id="projects">
     <Projects/>
   </section>
 
-  <section class="row min-vh-100" id="resume">
-    <Resume />
-  </section>
   
   <section class="row min-vh-100" id="contact">
     <Contact/>

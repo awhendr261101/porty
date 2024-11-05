@@ -189,7 +189,6 @@ export default {
 }
 
 [name]{
-
     font-family: "Bowlby One", sans-serif;
     font-size: 3rem;
     color: #ffffff !important;

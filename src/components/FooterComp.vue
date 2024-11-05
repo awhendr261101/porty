@@ -17,7 +17,7 @@
     background-color: #333 !important;
     color: #fff;
     font-size: 14px;
-    height: 100px;
+    height: 70px;
   }
 </style>
   

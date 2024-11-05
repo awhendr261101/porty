@@ -49,7 +49,7 @@
                 <div class="portfolio-item">
                     <img src="../assets/img/shopping-bag.png" alt="Portfolio Image 4">
                     <div class="portfolio-hover">
-                        <p>Hangman</p>
+                        <p>Ecommerce</p>
                         <a href="https://jseomp-geeks.vercel.app/" class="btn" target="_blank">Go Live</a>
                         <a href="https://github.com/awhendr261101/jseompGeeks" class="btn" target="_blank">Github</a>
                     </div>
