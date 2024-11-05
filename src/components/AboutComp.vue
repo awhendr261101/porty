@@ -1,7 +1,7 @@
 <template>
     <section class="services">
         <div class="container">
-            <h2>Skills</h2>
+            <h2>Skills & About</h2>
             <h3>What I Am Great At</h3>
             <p class="descriptions">
                 I was born in the Eastern Cape and grew up in Cape Town, where I later graduated from Oval North Technical High School. It was during my time there, studying Computer Applications Technology, that I discovered my passion for coding. After high school, I knew I wanted to pursue programming further, and I was accepted into WeThinkCode, one of Africa's leading tech institutions, where I studied software engineering.
