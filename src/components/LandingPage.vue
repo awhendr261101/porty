@@ -4,10 +4,26 @@
             <div class="left-section">
                 <h1 name>Awodwa</h1>
                 <h1 name>Hendrick.</h1>
+                <!-- <div class="socials d-flex align-items-start">
+                    <a href="linkedin.com/in/awodwa-hendrick-a35933219" target="_blank"><img src="../assets/img/github.png" alt="social"></a>
+                    <a href="https://github.com/awhendr261101" target="_blank" ><img src="../assets/img/linkedin.png" alt="social"></a>
+                </div> -->
+
+                <!-- <div class="socials d-flex align-items-start">
+                    <a href="linkedin.com/in/awodwa-hendrick-a35933219" target="_blank"><img src="../assets/img/soft/github.png" alt="social"></a>
+                    <a href="https://github.com/awhendr261101" target="_blank" ><img src="../assets/img/soft/linkedin.png" alt="social"></a>
+                </div> -->
+
                 <div class="socials d-flex align-items-start">
-                    <a href="#"><img src="../assets/img/github.png" alt="social"></a>
-                    <a href="#"><img src="../assets/img/linkedin.png" alt="social"></a>
+                    <a href="linkedin.com/in/awodwa-hendrick-a35933219" target="_blank"><img src="../assets/img/soft/new/github2.png" alt="social"></a>
+                    <a href="https://github.com/awhendr261101" target="_blank" ><img src="../assets/img/soft/new/linkedin2.png" alt="social"></a>
                 </div>
+
+                <!-- <div class="socials d-flex align-items-start">
+                    <a href="linkedin.com/in/awodwa-hendrick-a35933219" target="_blank"><img src="../assets/img/soft/new/github1.png" alt="social"></a>
+                    <a href="https://github.com/awhendr261101" target="_blank" ><img src="../assets/img/soft/new/linkedin1.png" alt="social"></a>
+                </div> -->
+
                 <div class="button-cont">
                     <a href="#contact" class="contact-btn">Contact Me</a>
                 </div>
@@ -175,7 +191,7 @@ export default {
 [name]{
 
     font-family: "Bowlby One", sans-serif;
-    font-size: 2rem;
+    font-size: 3rem;
     color: #ffffff !important;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -233,5 +249,5 @@ export default {
 
 }
 
-.left-section{}
+
 </style>

@@ -7,10 +7,10 @@
                 Explore my diverse range of projects, showcasing expertise in web development, software engineering, and problem-solving. Each project highlights my passion for clean code, creative design, and practical solutions. Check out the technologies and innovations that drive my work and development journey by clicking on the github button 
             </p>
 
-            <ul class="portfolio-filters">
+            <!-- <ul class="portfolio-filters">
                 <li><button  class="" onclick="">Live Projects</button></li>
                 <li><button  class="">Case Studies</button></li>
-            </ul>
+            </ul> -->
 
             <div class="port d-flex flex-row justify-content-center">
             <div class="portfolio-items d-flex flex-wrap">

@@ -13,9 +13,7 @@
                     <div class="event-date badge bg-body">20-09-20</div>
                     <h5 class="pt-2">Matric</h5>
                     <p class="text-muted">I matriculated from Oval North Technical High School in 2020, earning a Bachelor’s pass. My time at Oval North sparked my passion for technology, particularly through my exposure to Computer Applications Technology, which laid the foundation for my journey into software development.</p>
-                    <div>
-                      <a href="#" data-mdb-ripple-init class="btn btn-primary btn-sm">Read more</a>
-                    </div>
+
                   </div>
                 </li>
                 <li class="list-inline-item items-list">
@@ -23,9 +21,7 @@
                     <div class="event-date badge bg-body">28-01-24</div>
                     <h5 class="pt-2">WeThinkCode</h5>
                     <p class="text-muted">I studied for two years at WeThinkCode, where I specialized in Software Development. During this time, I covered key electives such as systems integration, quality assurance, and mobile development, gaining hands-on experience that deepened my technical skills and problem-solving abilities</p>
-                    <div>
-                      <a href="#" data-mdb-ripple-init class="btn btn-primary btn-sm">Read more</a>
-                    </div>
+
                   </div>
                 </li>
                 <li class="list-inline-item items-list">
@@ -33,9 +29,7 @@
                     <div class="event-date badge bg-body">20-09-24</div>
                     <h5 class="pt-2">LC Academy</h5>
                     <p class="text-muted">I attended a six-month intensive bootcamp at Life Choices, where I learned full-stack web development. In addition to technical skills, I received professional development training, which helped me enhance my teamwork, and project management abilities, preparing me for real-world tech environments.</p>
-                    <div>
-                      <a href="#" data-mdb-ripple-init class="btn btn-primary btn-sm">Read more</a>
-                    </div>
+
                   </div>
                 </li>
 
@@ -54,9 +48,7 @@
                     <div class="event-date badge bg-body">currently</div>
                     <h5 class="pt-2">LC Studio</h5>
                     <p class="text-muted">I’m currently an intern at Life Choices Academy, where I’m undergoing hands-on training in multiple tech electives. This role is providing me with practical experience across diverse areas in technology, enhancing my skill set and preparing me for a dynamic career in the tech industry.</p>
-                    <div>
-                      <a href="#" data-mdb-ripple-init class="btn btn-primary btn-sm">Read more</a>
-                    </div>
+
                   </div>
                 </li>
 
@@ -65,9 +57,7 @@
                     <div class="event-date badge bg-body">7 June</div>
                     <h5 class="pt-2">Event Three</h5>
                     <p class="text-muted">I completed intensive training in a work simulation program at WeThinkCode, where I gained practical experience in key electives such as Q&A, Systems Integration, and Mobile App Development. This program provided a solid foundation in real-world tech practices</p>
-                    <div>
-                      <a href="#" data-mdb-ripple-init class="btn btn-primary btn-sm">Read more</a>
-                    </div>
+
                   </div>
                 </li>
               </ul>
