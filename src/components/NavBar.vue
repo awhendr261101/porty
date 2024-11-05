@@ -30,7 +30,7 @@ import { ref, onMounted, onBeforeUnmount } from 'vue';
 const links = [
   { id: 'landing', text: 'Home', href: '#landing' },
   { id: 'about', text: 'About', href: '#about' },
-  { id: 'resume', text: 'Education&Experience', href: '#resume' },
+  { id: 'resume', text: 'Edu&Exp', href: '#resume' },
   { id: 'projects', text: 'Projects', href: '#projects' },
   { id: 'contact', text: 'Contact Me', href: '#contact' },
 ];
