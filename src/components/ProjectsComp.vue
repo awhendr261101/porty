@@ -8,11 +8,11 @@
             </p>
 
             <ul class="portfolio-filters">
-                <li><a href="" class="active">All</a></li>
-                <li><a href="" class="" >Design Orientated</a></li>
-                <li><a href="" class="">Functionality Orientated</a></li>
+                <li><button  class="" onclick="">Live Projects</button></li>
+                <li><button  class="">Case Studies</button></li>
             </ul>
 
+            <div class="port d-flex flex-row justify-content-center">
             <div class="portfolio-items d-flex flex-wrap">
                 <div class="portfolio-item">
                     <img src="../assets/img/cart.png" alt="Portfolio Image 1">
@@ -46,15 +46,32 @@
                         <a href="https://github.com/awhendr261101/hangman" class="btn" target="_blank">Github</a>
                     </div>
                 </div>
+                <div class="portfolio-item">
+                    <img src="../assets/img/shopping-bag.png" alt="Portfolio Image 4">
+                    <div class="portfolio-hover">
+                        <p>Hangman</p>
+                        <a href="https://jseomp-geeks.vercel.app/" class="btn" target="_blank">Go Live</a>
+                        <a href="https://github.com/awhendr261101/jseompGeeks" class="btn" target="_blank">Github</a>
+                    </div>
+                </div>
+            </div>
             </div>
         </div>
     </section>
 </template>
 
-<script>
-export default {
+<script setup>
 
+let show = false;
+
+const handleClick = () => {
+    show =!show;
 }
+
+console.log(handleClick);
+
+
+
 </script>
 
 <style scoped>
@@ -92,22 +109,30 @@ export default {
     margin-right: 20px;
 }
 
-.portfolio-filters a {
-    color: #f3c623;
+.portfolio-filters button {
+    background-color: #f3c623;
+    color: #1c1c1c;
+    padding: 12px 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
     text-transform: uppercase;
-    letter-spacing: 1px;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 0.6rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    min-width: 8rem;
 }
 
 .portfolio-filters a.active {
     color: #ffffff;
 }
 
+
 .portfolio-items {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 15px; /* Reduced gap for smaller items */
+    max-width: 90% !important;
+    gap: 30px !important;
 }
 
 .portfolio-item {

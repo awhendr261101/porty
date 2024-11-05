@@ -16,29 +16,29 @@
             <span>+27 79 587 0761</span>
           </div>
           <div class="contact-item">
-            <i class="fas fa-comments"></i>
+            <a href=""><i class="fas fa-comments"></i></a>
             <span>LinkedIn</span>
           </div>
         </div>
-        <div class="social-links">
-          <a href="#" class="social-link">
-            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-          </a>
-          <a href="#" class="social-link">
-            <i class="fa fa-github-square" aria-hidden="true"></i>
-          </a>
-        </div>
-        <div class="contact-wrapper">
-          <!-- Form Added Here -->
+
+        <div class="contact-wrapper d-flex">
           <div class="contact-form">
             <h3>Get in Touch</h3>
-            <form>
+            <form action="https://formspree.io/f/xnnqpzal" method="post">
               <input type="text" placeholder="Your Name" required />
               <input type="email" placeholder="Your Email" required />
               <input type="text" placeholder="Subject" required />
               <textarea placeholder="Message" required></textarea>
+              <div class="buttons d-flex justify-content-between">
               <button type="submit" class="submit-btn">Send Email</button>
+              <button type="reset" class="submit-btn">Reset</button>
+              </div>
+
             </form>
+          </div>
+
+          <div class="contact-img">
+            <img class="img-fluid" src="../assets/img/me.jpg" alt="me">
           </div>
         </div>
       </div>
@@ -60,8 +60,8 @@ export default {
 }
 
 .container {
-  max-width: 800px;
-  margin: 0 auto;
+  padding-top: 0 !important;
+  width: 100%;
 }
 
 h2 {
@@ -98,6 +98,11 @@ h3 {
   margin-bottom: 10px;
 }
 
+.contact-item a{
+  color: white;
+  text-decoration: none;
+}
+
 .social-links {
   display: flex;
   justify-content: center;
@@ -127,6 +132,7 @@ footer {
   background-color: #333;
   padding: 30px;
   border-radius: 8px;
+  width: 30rem;
 }
 
 .contact-form h3 {
@@ -157,10 +163,21 @@ footer {
   padding: 12px 20px;
   cursor: pointer;
   border-radius: 5px;
+  min-width: 120px;
 }
 
 .contact-form .submit-btn:hover {
   background-color: #ffa500;
+}
+
+.contact-wrapper{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+[alt="me"]{
+  height: 29rem;
 }
 
 @media (max-width: 440px ) {
@@ -168,6 +185,24 @@ footer {
     display: flex;
     flex-direction: column;
   }
+}
+
+@media (max-width: 860px ) {
+    .contact-wrapper{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+}
+
+@media (max-width: 465px){
+  .contact-form {
+  background-color: #333;
+  padding: 30px;
+  border-radius: 8px;
+  width: 95%;
+}
 }
 
 </style>

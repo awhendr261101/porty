@@ -10,8 +10,8 @@ After completing the two-year program, I sought to deepen my expertise and joine
 
 Today, I am confident in the knowledge and experience I have gained from both institutions. With my diverse skill set and continuous drive to learn, I am ready to excel in any role within the tech industry.
             </p>
-            <RightSlider/>
             <LeftSlider />
+            <RightSlider/>
             <div class="stats">
                 <div class="stat-item">
                     <h4>2+</h4>

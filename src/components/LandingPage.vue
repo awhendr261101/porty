@@ -12,15 +12,6 @@
                     <a href="#contact" class="contact-btn">Contact Me</a>
                 </div>
             </div>
-            
-            <div imgcont>
-            <div class="image-section">
-                <div class="cir">
-    
-                </div>
-                <img  class="img-fluid" src="../assets/img/cropped-secstunt.png" alt="Jack Harper" landingimg>
-            </div>
-            </div>
     
             <div class="right-section">
                 <div class="intro-text">
@@ -241,4 +232,6 @@ export default {
       }
 
 }
+
+.left-section{}
 </style>

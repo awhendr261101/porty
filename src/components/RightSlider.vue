@@ -125,12 +125,6 @@
     border-radius: 8px;
   }
   
-  .carousel-item h4 {
-    font-size: 1.2rem;
-    font-weight: 900;
-    padding-top: 10px;
-    color: #f3c623;
-  }
   
   @keyframes scroll {
     0% {

@@ -1,8 +1,5 @@
 <template>
   <div class="conty">
-  <section class="row" id="landing">
-    <NavBar/>
-  </section>
 
   <section class="row" id="landing">
     <LandingPage/>
@@ -37,7 +34,6 @@ import Projects from '@/components/ProjectsComp.vue'
 import Contact from '@/components/ContactPage.vue'
 import Resume from '@/components/ResumeComp.vue'
 import FooterComp from '@/components/FooterComp.vue'
-import NavBar from '@/components/NavBar.vue'
 
 
 export default {
@@ -50,7 +46,6 @@ export default {
     Resume,
     Contact,
     FooterComp,
-    NavBar
   }
 }
 </script>
