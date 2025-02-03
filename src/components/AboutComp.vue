@@ -1,18 +1,18 @@
 <template>
     <section class="services">
         <div class="container">
-            <h2>Skills & About</h2>
-            <h3>What I Am Great At</h3>
-            <p class="descriptions">
+            <h2 data-aos="fade-up">Skills & About</h2>
+            <h3 data-aos="fade-up" >What I Am Great At</h3>
+            <p class="descriptions" data-aos="fade-up">
                 I was born in the Eastern Cape and grew up in Cape Town, where I later graduated from Oval North Technical High School. It was during my time there, studying Computer Applications Technology, that I discovered my passion for coding. After high school, I knew I wanted to pursue programming further, and I was accepted into WeThinkCode, one of Africa's leading tech institutions, where I studied software engineering.
 
 After completing the two-year program, I sought to deepen my expertise and joined Life Choices, a renowned youth empowerment NGO in South Africa. There, I focused on web development and completed an intensive 6-month bootcamp that transformed my skills and career path.
 
 Today, I am confident in the knowledge and experience I have gained from both institutions. With my diverse skill set and continuous drive to learn, I am ready to excel in any role within the tech industry.
             </p>
-            <LeftSlider />
-            <RightSlider/>
-            <div class="stats">
+            <LeftSlider data-aos="fade-up"/>
+            <RightSlider data-aos="fade-up"/>
+            <div class="stats" data-aos="fade-up">
                 <div class="stat-item">
                     <h4>2+</h4>
                     <p>Years of Experience</p>

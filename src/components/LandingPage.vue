@@ -1,7 +1,7 @@
 <template>
     <div class="land">
-        <section class="landing-section d-flex flex-wrap">
-            <div class="left-section">
+        <section class="landing-section d-flex flex-wrap" >
+            <div class="left-section" data-aos="fade-right">
                 <h1 name>Awodwa</h1>
                 <h1 name>Hendrick.</h1>
 
@@ -16,7 +16,7 @@
                 </div>
             </div>
     
-            <div class="right-section">
+            <div class="right-section" data-aos="fade-left">
                 <div class="intro-text">
                     <h3>Introduction</h3>
                     <h2>UI/UX Designer, <br> Full Stack Web Developer</h2>
