@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg sticky-top min-vw-100">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">
+      <a class="navbar-brand" href="#landing">
         <img src="https://awhendr261101.github.io/allImages/images/surveycorps.jpg" alt="logo" loading="lazy">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -121,6 +121,8 @@ onBeforeUnmount(() => {
   transform: scale(1);
   transition: 1s;
 }
+
+
 
 
 

@@ -4,25 +4,12 @@
             <div class="left-section">
                 <h1 name>Awodwa</h1>
                 <h1 name>Hendrick.</h1>
-                <!-- <div class="socials d-flex align-items-start">
-                    <a href="linkedin.com/in/awodwa-hendrick-a35933219" target="_blank"><img src="../assets/img/github.png" alt="social"></a>
-                    <a href="https://github.com/awhendr261101" target="_blank" ><img src="../assets/img/linkedin.png" alt="social"></a>
-                </div> -->
 
-                <!-- <div class="socials d-flex align-items-start">
-                    <a href="linkedin.com/in/awodwa-hendrick-a35933219" target="_blank"><img src="../assets/img/soft/github.png" alt="social"></a>
-                    <a href="https://github.com/awhendr261101" target="_blank" ><img src="../assets/img/soft/linkedin.png" alt="social"></a>
-                </div> -->
 
                 <div class="socials d-flex align-items-start">
-                    <a href="linkedin.com/in/awodwa-hendrick-a35933219" target="_blank"><img src="../assets/img/soft/new/github2.png" alt="social"></a>
-                    <a href="https://github.com/awhendr261101" target="_blank" ><img src="../assets/img/soft/new/linkedin2.png" alt="social"></a>
+                    <a href="https://github.com/awhendr261101" target="_blank"><img src="../assets/img/soft/new/github2.png" alt="social"></a>
+                    <a href="https://www.linkedin.com/in/hendrick-awodwa/" target="_blank" ><img src="../assets/img/soft/new/linkedin2.png" alt="social"></a>
                 </div>
-
-                <!-- <div class="socials d-flex align-items-start">
-                    <a href="linkedin.com/in/awodwa-hendrick-a35933219" target="_blank"><img src="../assets/img/soft/new/github1.png" alt="social"></a>
-                    <a href="https://github.com/awhendr261101" target="_blank" ><img src="../assets/img/soft/new/linkedin1.png" alt="social"></a>
-                </div> -->
 
                 <div class="button-cont">
                     <a href="#contact" class="contact-btn">Contact Me</a>
@@ -227,7 +214,7 @@ export default {
       .right-section{
         align-items: center;
         justify-content: center !important;
-
+        width: 100%;
       }
 
 }

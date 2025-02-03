@@ -1,5 +1,6 @@
 <template>
   <div class="conty">
+    
 
   <section class="row" id="landing">
     <LandingPage/>

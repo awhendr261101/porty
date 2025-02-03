@@ -195,6 +195,16 @@ footer {
       align-items: center;
     }
 
+    [alt="me"]{
+      padding-top: 30px;
+      width: 95%;
+      height: auto;
+    }
+
+    .contact-img{
+      width: 95%;
+    }
+
 }
 
 @media (max-width: 465px){
@@ -204,6 +214,15 @@ footer {
   border-radius: 8px;
   width: 95%;
 }
+
+@media (max-width: 650px){
+  .description{
+    padding-inline: 20px;
+    margin-inline: 1rem;
+  }
+  
+}
+
 }
 
 </style>
