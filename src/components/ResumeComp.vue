@@ -8,7 +8,7 @@
             <div class="horizontal-timeline">
   
               <ul class="list-inline items">
-                <li class="list-inline-item items-list">
+                <li class="list-inline-item items-list" data-aos="fade-right">
                   <div class="px-4 text-white">
                     <div class="event-date badge bg-body">20-09-20</div>
                     <h5 class="pt-2">Matric</h5>
@@ -16,7 +16,7 @@
 
                   </div>
                 </li>
-                <li class="list-inline-item items-list">
+                <li class="list-inline-item items-list" data-aos="fade-up">
                   <div class="px-4 text-white">
                     <div class="event-date badge bg-body">28-01-24</div>
                     <h5 class="pt-2">WeThinkCode</h5>
@@ -24,7 +24,7 @@
 
                   </div>
                 </li>
-                <li class="list-inline-item items-list">
+                <li class="list-inline-item items-list" data-aos="fade-left">
                   <div class="px-4 text-white">
                     <div class="event-date badge bg-body">20-09-24</div>
                     <h5 class="pt-2">LC Academy</h5>
@@ -43,7 +43,7 @@
           <div class="col-lg-12">
             <div class="horizontal-timeline">
               <ul class="list-inline items">
-                <li class="list-inline-item items-list ">
+                <li class="list-inline-item items-list" data-aos="fade-right">
                   <div class="px-4 text-white">
                     <div class="event-date badge bg-body">currently</div>
                     <h5 class="pt-2">LC Studio</h5>
@@ -52,7 +52,7 @@
                   </div>
                 </li>
 
-                <li class="list-inline-item items-list">
+                <li class="list-inline-item items-list" data-aos="fade-left">
                   <div class="px-4 text-white">
                     <div class="event-date badge bg-body">28-01-24</div>
                     <h5 class="pt-2">WeThinkCode</h5>
