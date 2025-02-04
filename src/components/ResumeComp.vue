@@ -2,7 +2,7 @@
     <div class="container-fluid">
       <div class="container-fluid min-vh-100 d-flex flex-row align-items-center">
         <div class="row">
-          <h2 class="pb-5">My education</h2>
+          <h2 class="pb-5" data-aos="zoom-in">My education</h2>
           <div class="col-lg-12">
   
             <div class="horizontal-timeline">
@@ -39,7 +39,7 @@
           </div>
   
   
-          <h2 class="pb-5">My Experience</h2>
+          <h2 class="pb-5" data-aos="zoom-in">My Experience</h2>
           <div class="col-lg-12">
             <div class="horizontal-timeline">
               <ul class="list-inline items">

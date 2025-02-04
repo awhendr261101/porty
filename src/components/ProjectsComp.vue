@@ -14,7 +14,7 @@
 
             <div class="port d-flex flex-row justify-content-center">
             <div class="portfolio-items d-flex flex-wrap">
-                <div class="portfolio-item">
+                <div class="portfolio-item" data-aos="fade-up" data-aos-duration="600">
                     <img src="../assets/img/cart.png" alt="Portfolio Image 1">
                     <div class="portfolio-hover">
                         <p>Ecommerce</p>
@@ -22,7 +22,7 @@
                         <a href="https://github.com/awhendr261101/micasa" class="btn" target="_blank" >Github</a>
                     </div>
                 </div>
-                <div class="portfolio-item">
+                <div class="portfolio-item" data-aos="fade-up" data-aos-duration="400">
                     <img src="../assets/img/calculator.png" alt="Portfolio Image 2">
                     <div class="portfolio-hover">
                         <p>Calculator</p>
@@ -30,7 +30,7 @@
                         <a href="https://github.com/awhendr261101/calculator" class="btn" target="_blank">Github</a>
                     </div>
                 </div>
-                <div class="portfolio-item">
+                <div class="portfolio-item" data-aos="fade-up" data-aos-duration="200">
                     <img src="../assets/img/bmi.png" alt="Portfolio Image 3">
                     <div class="portfolio-hover">
                         <p>BMI Calculator</p>
@@ -38,7 +38,7 @@
                         <a href="https://github.com/awhendr261101/BMICaluculator" class="btn" target="_blank">Github</a>
                     </div>
                 </div>
-                <div class="portfolio-item">
+                <div class="portfolio-item" data-aos="fade-up" data-aos-duration="400">
                     <img src="../assets/img/joystick.png" alt="Portfolio Image 4">
                     <div class="portfolio-hover">
                         <p>Hangman</p>
@@ -46,7 +46,7 @@
                         <a href="https://github.com/awhendr261101/hangman" class="btn" target="_blank">Github</a>
                     </div>
                 </div>
-                <div class="portfolio-item">
+                <div class="portfolio-item" data-aos="fade-up" data-aos-duration="600">
                     <img src="../assets/img/shopping-bag.png" alt="Portfolio Image 4">
                     <div class="portfolio-hover">
                         <p>Ecommerce</p>

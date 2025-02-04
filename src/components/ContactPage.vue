@@ -1,29 +1,30 @@
 <template>
     <div class="contact-section">
       <div class="container">
-        <h2>Contact Me</h2>
-        <h3>Ways To Contact Me</h3>
-        <p class="description">
+        <h2 data-aos="fade-up">Contact Me</h2>
+        <h3 data-aos="fade-up">Ways To Contact Me</h3>
+        <p class="description" data-aos="fade-up">
           Let’s connect! Whether you're interested in collaborating, have a project idea, or are offering employment opportunities, feel free to reach out. I’m always open to new ventures and career prospects. Fill out the form below, and I’ll get back to you soon!
         </p>
         <div class="contact-info">
-          <div class="contact-item">
+          <div class="contact-item" data-aos="zoom-
+          ">
             <i class="fas fa-envelope"></i>
             <span>awodwasihlehendrick@gmail.com</span>
           </div>
-          <div class="contact-item">
+          <div class="contact-item" data-aos="zoom-out">
             <i class="fas fa-phone"></i>
             <span>+27 79 587 0761</span>
           </div>
-          <div class="contact-item">
+          <div class="contact-item" data-aos="zoom-out">
             <a href=""><i class="fa fa-map-marker" aria-hidden="true"></i>
             </a>
             <span>Khayelitsha, Cape Town</span>
           </div>
         </div>
 
-        <div class="contact-wrapper d-flex">
-          <div class="contact-form">
+        <div class="contact-wrapper d-flex" >
+          <div class="contact-form" data-aos="fade-right">
             <h3>Get in Touch</h3>
             <form action="https://formspree.io/f/xnnqpzal" method="post">
               <input type="text" placeholder="Your Name" required />
@@ -38,7 +39,7 @@
             </form>
           </div>
 
-          <div class="contact-img">
+          <div class="contact-img" data-aos="fade-left">
             <img class="img-fluid" src="../assets/img/me.jpg" alt="me">
           </div>
         </div>
