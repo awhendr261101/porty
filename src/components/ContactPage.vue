@@ -13,7 +13,7 @@
           </div>
           <div class="contact-item" data-aos="zoom-in">
             <i class="fas fa-phone"></i>
-            <span>+27 79 587 0761</span>
+            <span>+27 64 979 4344</span>
           </div>
           <div class="contact-item" data-aos="zoom-in">
             <a href=""><i class="fa fa-map-marker" aria-hidden="true"></i>
