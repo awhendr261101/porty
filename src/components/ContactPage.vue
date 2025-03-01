@@ -39,7 +39,7 @@
           </div>
 
           <div class="contact-img" data-aos="fade-up">
-            <img class="img-fluid" src="../assets/img/me.jpg" alt="me">
+            <img class="img-fluid" src="https://awhendr261101.github.io/allImages/images/porty/kiki.jpg" alt="me">
           </div>
         </div>
       </div>
